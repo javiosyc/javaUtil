@@ -1,4 +1,4 @@
-package test;
+package serviceProvider;
 
 
 //Service interface

@@ -8,6 +8,7 @@
 		<jdkVersion>1.7</jdkVersion>
 		<mavenCompilerVersion>3.3</mavenCompilerVersion>
 		<junitVersion>4.11</junitVersion>
+		<apacheBeanUtils>1.9.2</apacheBeanUtils>
 	</properties>
 	<dependencies>
 		<dependency>
@@ -20,6 +21,11 @@
 			<groupId>org.apache.commons</groupId>
 			<artifactId>commons-lang3</artifactId>
 			<version>3.4</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>${apacheBeanUtils}</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-io</groupId>

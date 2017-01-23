@@ -1,7 +1,12 @@
 package bean.aa;
 
+import javax.xml.bind.annotation.XmlAttribute;
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name = "person", namespace = "test")
 public class TestAA {
 
+	@XmlAttribute
 	private String a;
 	private String e;
 	private String c;
